@@ -6,7 +6,7 @@ rm -rf THANOS
 
 git clone https://github.com/SHANTO-TC/THANOS.git
 
-cd TEST2
+cd THANOS
 
 python THANOS.py
 ```

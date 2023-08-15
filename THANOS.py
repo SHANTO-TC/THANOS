@@ -325,9 +325,7 @@ def superuser():
         print(logo)
         print("\t\033[1;37m\x1b[41m{ First Get Approvel }\033[00m\033[1;30m")
         print ("")
-        print("" \033[1;32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-	 ┃ \033[1;37mNote: That is Paid because 100% Ok ID Just Now Login\033[1;32m ┃
-         ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"")
+        print("\033[1;32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ \n┃ \033[1;37mNote: That is Paid because 100% Ok ID Just Now Login\033[1;32m ┃\n┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
         print ("")
         print(" Your Key is Not Approved ")
         print(" Copy And Send Key To Admin")

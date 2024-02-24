@@ -121,7 +121,7 @@ class jalan:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.001)
-sys.stdout.write('\x1b[1;35m\x1b]2; THANOS Free Command \x07')
+sys.stdout.write('\x1b[1;35m\x1b]2; THANOS Paid Command \x07')
 
 logo=("""
   \x1b[1;92m╔╗╔╗\033[0;33m╔══╗\033[0;34m╔══╗\033[0;35m╔══╗\033[0;31m╔═╦╗ \033[0;36m╔══╗\033[0;37m╔═╦═╗\x1b[1;92m╔══╗\033[0;31m╔═╦═╗
@@ -131,9 +131,9 @@ logo=("""
 \x1b[38;5;46m______________________________________________________
  \033[1;31m[\033[1;32mS\033[1;31m]\033[1;32m DEVELOPER : HASAN IMAM
  \033[1;31m[\033[1;32mH\033[1;31m]\033[1;32m TELEGRAM  : TermuxFreeCommandTFC
- \033[1;31m[\033[1;32mA\033[1;31m]\033[1;32m FACEBOOK  : Hasan Imam 
+ \033[1;31m[\033[1;32mA\033[1;31m]\033[1;32m FACEBOOK  : Hasan Imam (Shanto)
  \033[1;31m[\033[1;32mN\033[1;31m]\033[1;32m GITHUB    : X74TEAM
- \033[1;31m[\033[1;32mT\033[1;31m]\033[1;32m TOOLS     : \x1b[1;92mRANDOM \033[1;37m\x1b[41mFREE\x1b[0m
+ \033[1;31m[\033[1;32mT\033[1;31m]\033[1;32m TOOLS     : \x1b[1;92mRANDOM \033[1;37m\x1b[41mPAID\x1b[0m
  \033[1;31m[\033[1;32mO\033[1;31m]\033[1;32m VERSION   : \033[1;31m[V-1]
 \x1b[38;5;46m_____________________________________________________
 """)

